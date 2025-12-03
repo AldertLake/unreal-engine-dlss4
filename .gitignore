@@ -71,7 +71,12 @@ DerivedDataCache/*
 
 # Local Plugins
 **/Plugins/**/Intermediate/*
+# Ignore ALL plugin Binaries folders...
 **/Plugins/**/Binaries/*
+
+# To keep thirdparty binaries for plugins
+!**/Plugins/**/Binaries/ThirdParty/
+!**/Plugins/**/Binaries/ThirdParty/**/*
 **/Plugins/**/Saved/*
 
 # Temp Files
